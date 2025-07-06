@@ -5,7 +5,8 @@ This is an AI-powered chatbot for UPSC and RAS aspirants, built using Streamlit 
 
 ## How to Use
 
-### 1. Add Your OpenAI API Key
+### 1. Add Your OpenAI API Key pranaybhardwaj1234
+
 Edit the file `.streamlit/secrets.toml` and paste your key like this:
 
 ```
