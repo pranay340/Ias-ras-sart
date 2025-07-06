@@ -1,19 +1,26 @@
-# 🎈 Blank app template
 
-A simple Streamlit app template for you to modify!
+# IAS-RAS Sarthi Chatbot
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+This is an AI-powered chatbot for UPSC and RAS aspirants, built using Streamlit and OpenAI.
 
-### How to run it on your own machine
+## How to Use
 
-1. Install the requirements
+### 1. Add Your OpenAI API Key
+Edit the file `.streamlit/secrets.toml` and paste your key like this:
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+```
+OPENAI_API_KEY = "your_actual_key_here"
+```
 
-2. Run the app
+### 2. Upload Files to GitHub
+- Go to [https://github.com/new](https://github.com/new)
+- Create a new repository (e.g., `ias-ras-sarthi`)
+- Upload all files from this ZIP
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+### 3. Deploy on Streamlit Cloud
+- Visit [https://share.streamlit.io](https://share.streamlit.io)
+- Click "New App", connect to your GitHub repo
+- Set main file as: `ias_sarthi.py`
+- Click **Deploy**
+
+Your chatbot will go live in 1 minute 🚀
